@@ -2,6 +2,12 @@
 
 Hallo! Hier zeige ich an einem eigenen Projekt, wie ich KI praktisch einsetze: von der Planung über die Einrichtung bis zum täglichen Betrieb.
 
+**Kurz gesagt:** Selbst betriebenes KI-gestütztes Wissenssystem (seit 2026)
+- Getrennte Wissensarchive in Obsidian auf eigenem Heimserver, mit Git versioniert, nächtliche Sicherung, Zugriff von außen nur per VPN
+- KI-Agent (Claude Code) pflegt die Archive nachts selbstständig, mit festen Regeln und eng begrenzten Rechten
+- Anbindung von Kalender, E-Mail und einem Kanban-Board für Bewerbungen über das Model Context Protocol (MCP)
+- Lokales Sprachmodell für vertrauliche Daten, ausgewählt per Vergleichstest auf der eigenen Hardware
+
 **Ein eigenes KI-gestütztes Wissensarchiv, zu Hause betrieben**
 
 Ich habe mir mit KI ein persönliches Wissens- und Organisationssystem gebaut, das auf einem kleinen Heimserver läuft. Ein KI-Agent pflegt es jede Nacht selbstständig, mit klaren Regeln und eng begrenzten Rechten.
@@ -38,6 +44,12 @@ Ich habe mir mit KI ein persönliches Wissens- und Organisationssystem gebaut, d
 ### English version (as of 2026-11-20)
 
 Hi! This is a personal project that shows how I use AI in practice, from planning and setup to day-to-day operation.
+
+**In short:** Self-hosted AI-supported knowledge system (since 2026)
+- Separate knowledge bases in Obsidian on my own home server, versioned with Git, nightly backups, remote access only via VPN
+- AI agent (Claude Code) maintains the knowledge bases every night on its own, under fixed rules and with tightly limited permissions
+- Calendar, email and a Kanban board for job applications connected via the Model Context Protocol (MCP)
+- Local language model for confidential data, chosen by benchmark on my own hardware
 
 **A personal AI-supported knowledge base, self-hosted at home**
 
